@@ -8,7 +8,7 @@ ext {
     groupId = 'com.github.vipulasri'
     libraryName = 'TimelineView'
     artifact = 'timelineview'
-    libraryVersion = '1.1.5'
+    libraryVersion = '1.1.7'
     libraryDescription = 'Android Timeline View Library (Using RecyclerView) is simple implementation used to display view like Tracking of shipment/order, steppers etc.'
 
     siteUrl = 'https://github.com/vipulasri/Timeline-View'
@@ -56,7 +56,7 @@ afterEvaluate {
 
                 groupId = 'com.github.gfigueroaalmera'
                 artifactId = 'Timeline-View'
-                version = '1.1.6'
+                version = '1.1.7'
             }
         }
     }
