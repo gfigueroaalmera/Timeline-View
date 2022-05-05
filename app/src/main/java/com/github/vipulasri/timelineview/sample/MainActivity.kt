@@ -36,7 +36,7 @@ class MainActivity : BaseActivity() {
         //default values
         mAttributes = TimelineAttributes(
                 markerSize = dpToPx(20f),
-                markerColor = getColorCompat( R.color.material_grey_500),
+                markerColor = getColorCompat( R.color.colorAccent),
                 markerInCenter = true,
                 markerLeftPadding = dpToPx(0f),
                 markerTopPadding = dpToPx(0f),

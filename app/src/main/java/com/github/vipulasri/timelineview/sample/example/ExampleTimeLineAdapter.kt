@@ -43,13 +43,13 @@ class ExampleTimeLineAdapter(private val mFeedList: List<TimeLineModel>) : Recyc
 
         when {
             timeLineModel.status == OrderStatus.INACTIVE -> {
-                setMarker(holder, R.drawable.ic_marker_inactive, R.color.material_grey_500)
+                setMarker(holder, R.drawable.ic_marker_inactive, R.color.colorAccent)
             }
             timeLineModel.status == OrderStatus.ACTIVE -> {
-                setMarker(holder, R.drawable.ic_marker_active, R.color.material_grey_500)
+                setMarker(holder, R.drawable.ic_marker_active, R.color.colorAccent)
             }
             else -> {
-                setMarker(holder, R.drawable.ic_marker, R.color.material_grey_500)
+                setMarker(holder, R.drawable.ic_marker, R.color.colorAccent)
             }
         }
 
