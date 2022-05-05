@@ -41,9 +41,7 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingLeft">-5dp</item>
-        <item name="dsb_scrubberHeight">3dp</item>
-        <item name="dsb_progressColor">@color/colorAccent</item>
-        <item name="dsb_indicatorColor">@color/colorAccent</item>
+
     </style>
 
     <style name="BorderImageView">
